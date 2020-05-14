@@ -1,0 +1,11 @@
+{
+    "model": "lstm",
+    "input_length": 4800,
+    "learning_rate": 1e-2,
+    "optimizer": "SGD",
+    "momentum": 0.9,
+    "epochs": 30,
+    "batch_size": 32,
+    "patience": 10,
+    "validation_split": 0.15
+}
