@@ -16,7 +16,7 @@ stream = p.open(format=FORMAT,
                 input=True,
                 frames_per_buffer=CHUNK)
 
-print(f'Device info:\n{p.get_default_input_device_info()}')
+print('Device info:\n{}'.format(p.get_default_input_device_info()))
 
 frames = []
 
